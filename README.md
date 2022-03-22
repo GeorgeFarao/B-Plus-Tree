@@ -6,7 +6,7 @@ The functions are:
 * AM_Init(): Initialization of data used.
 * AM_Close(): Free any data used.
 * AM_CreateIndex(): Using B+ tree, create a file and it's identifying block
-* AM_DestroyIndex(): Removes a file.
+* AM_DestroyIndex(): Remove a file.
 * AM_OpenIndex(): Using B+ tree, open an existing file from those we have created.
 * AM_CloseIndex(): Using B+ tree, close an open file.
 * AM_InsertEntry(): Using B+ tree insert an entry into a file.
